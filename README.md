@@ -7,6 +7,7 @@ Automatically sync between a local directory and Kindle
 * BASH
 * An AWS account credentials and associated policy to use SES.
 * Amazon SES SMTP interface is setup
+* Tested only on Ubuntu Linux. Minor tweaks may be necessary for Macs.
 
 
 ## usage
@@ -24,8 +25,3 @@ Watch a directory for new PDF files to sync to Kindle:
 ```
 ./kindle-watch.sh [DIR]
 ```
-
-
-## references
-
-* https://github.com/watchexec/watchexec
